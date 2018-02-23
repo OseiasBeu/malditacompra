@@ -1,67 +1,66 @@
-body{
+body {
     margin: 0;
     font-family: sans-serif;
 }
 
-header{
+header {
     font-size: 24px;
     color: #bc4f3b;
     background-color: black;
     display: flex;
 }
 
-header h1{
+header h1 {
     margin: 20px;
 }
 
-header img{
+header img {
     width: 100px;
     height: 100px;
 }
 
-.banner img{
+.banner img {
     width: 100%;
 }
 
-.produtos{
+.produtos {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
-.produtos div{
+.produtos div {
     width: 30%;
 }
 
-.produtos div img{
+.produtos div img {
     width: 100%;
 }
 
-.produtos div p{
+.produtos div p {
     margin: 0;
 }
 
-.produtos div .titulo{
+.produtos div .titulo {
     font-size: 26px;
 }
 
-@media(max-width: 600px){
-    header h1{
+
+/* Media query. Define que as configurações abaixo só serão aplicadas a aparelhos com no maximo 600px*/
+
+@media(max-width: 600px) {
+    header h1 {
         margin: 26px;
         font-size: 34px;
     }
-    .banner{
+    .banner {
         display: none;
     }
-
-    .produtos{
+    .produtos {
         display: none;
     }
-
-    .produtos div{
+    .produtos div {
         width: 100%;
         margin-bottom: 20px;
     }
-
 }
