@@ -45,6 +45,10 @@ header img {
     font-size: 26px;
 }
 
+.titulo {
+    border: black solid;
+}
+
 
 /* Media query. Define que as configurações abaixo só serão aplicadas a aparelhos com no maximo 600px*/
 
